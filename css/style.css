@@ -1,0 +1,993 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .top{
+    border-bottom: 1px solid #d5dbe7;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .inner{
+    width: 100%;
+}
+
+header .inner .heading{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+header .top .inner .heading h1{
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header .top .inner .heading h1 ,h2{
+    font-size: 15px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+
+header .top .inner_s .heading { 
+    display: flex;
+    width: 300px;
+}
+
+header .inner_s .heading h3{
+    font-size: 15px;
+    padding-right: 30px;
+    width: 120px;
+    font-weight: 500; 
+}
+header .inner_s .heading .icon i{
+    font-size: 17px;
+    margin-right: 10px;
+} */
+
+header .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .head h1{
+    font-size: 42px;
+    color: #3CB815 ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600;
+}
+
+header .head h1 span{
+    color: #F65005 ;
+}
+
+header .head .nav{
+    width: 550px;
+}
+
+header .head .nav a{
+    font-size: 15px;
+    color: #555555;
+    font-weight: 500;
+    width: 75px;
+    margin-right: 10px;
+    text-decoration: none;
+    position: relative;
+}
+header .head .nav a::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: -5%;
+    width: 0px;
+    height: 1px;
+    background-color: #fff;
+}
+header .head .nav a:hover::before{
+    width: 75px;
+    transition: 0.5s ease-in-out;
+ }
+
+header .head .nav i{
+    font-size: 16px;
+    width: 30px;
+    padding-top: 5px;
+}
+.container h2{
+    font-size: 70px;
+    padding-top: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.container  .btn{
+    display: flex;
+    text-align: center;
+}
+
+header h5{
+    color: #003399;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    width: 150px;
+    height: 60px;
+    padding: 18px 25px;
+    background-color: #3CB815;
+    border-radius: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+header h6{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    width: 150px;
+    height: 60px;
+    padding: 18px 25px;
+    background-color: #F65005;
+    border-radius: 40px; 
+    text-align: center;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+section .image{
+max-width: 500px;
+height: auto;
+padding-top: 90px;
+
+
+}
+
+section .image img{
+width: 100%;
+
+}
+
+/* section .image img::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background-image: repeating-radial-gradient(#e90c0c, #110404 5px, transparent 5px, transparent 10px);
+    background-size: 20px 20px;
+    transform: skew(20deg);
+    z-index: 999;
+} */
+
+
+section .inner{
+    width: 100%;
+    height: auto;
+    padding-top: 110px;
+}
+
+section .inner h1{
+    font-size: 50px;
+    color: #111;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section .inner p{
+    font-size: 17px;
+    color: #555555;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+section .inner ul{
+    margin-bottom: 50px;
+}
+section .inner ul li{
+    font-size: 17px;
+    color: #555555;
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    position: relative;
+}
+section .inner ul li::before{
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 10%;
+    left: -6%;
+    font-size: 16px;
+    color: #3CB815;
+}
+
+section .inner a{
+    font-size: 17px;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 500;
+    background-color: #3CB815;
+    text-decoration: none;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+.features{
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/bg-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F7F8FC !important;
+}
+
+.features h1{
+    font-size: 50px;
+    color: #111;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    position: relative;
+    padding-top: 60px;
+}
+
+.features h1::before{
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: #3CB815;
+    position: absolute;
+    top: 25%;
+    left: 48%;
+}
+
+.features h1::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #F65005;
+    position: absolute;
+    top: 35%;
+    left: 47%;
+}
+
+.features p{
+    font-size: 17px;
+    color: #555555;
+    text-align: center;
+    padding-bottom: 30px;
+   
+}
+
+.features .info{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 1px 1px 1px 5px rgb(230, 230, 230);
+    padding: 40px 0;
+    border-radius: 2px;
+    margin-bottom: 30%;
+}
+
+
+.features .info .pic{
+    width: 100%;
+    height: 100%;
+}
+.features .info .pic img{
+    max-width: 200px;
+    height: auto;
+}
+
+.features .info h3{
+    font-size: 25px;
+    color: #111;
+    padding-top: 20px;
+    padding-bottom:10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.features .info p{
+    font-size: 16px;
+    color: #555555;
+    padding-bottom: 15px;
+}
+
+.features .info a{
+    font-size: 15px;
+    color: #3CB815;
+    border-radius: 35px;
+    font-weight: 500;
+    border: 1px solid #3CB815;  
+    text-decoration: none;
+    padding: 8px 22px;
+    cursor: pointer;
+}
+
+.features .info a:hover{
+    color: #fff;
+    background-color: #3CB815;
+    transition: 0.4s ease;
+}
+/* our css start here */
+.our{
+    width: 100%;
+    height: 100%;
+    background-color: #f3f6ff !important;
+}
+.our h1{
+    font-size: 50px;
+    color: #111;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    position: relative;
+    padding-top: 80px;
+}
+.our h1::before{
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: #3CB815;
+    position: absolute;
+    top: 42%;
+    left: 3%;   
+}
+.our h1::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #F65005;
+    position: absolute;
+    top: 50%;
+    left: 2%;   
+}
+.our .para{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.our .para p{
+    font-size: 17px;
+    color: #555555;
+}
+.our .para .menu a{
+    font-size: 17px;
+    color: #111;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 8px 15px;
+    border: 2px solid #3CB815;
+}
+.our .para .menu a:first-child{
+    background-color: #3CB815;
+    color: #fff;
+}
+.our .para .menu a:hover{
+    color: #fff;
+    background-color: #3CB815;
+    transition: 0.4s ease;
+}
+.our .info{
+    width: 100%;
+    height: 100%;
+    margin-top:20px ;  
+    box-shadow: 1px  rgb(233, 233, 233);
+}
+.our .info .image{
+    max-width: 300px;
+}
+.our .info .image img{
+    width: 100%;
+}
+.our .info .text{
+    background-color: #fff; 
+    position: relative;  
+}
+.our .info .text h4{
+    font-size: 21px;
+    color: #111;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+}
+.our .info .text i{
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #F65005;
+    position: absolute;
+    top: -190%;
+    left: 15%;
+    background-color: #F65005;
+    padding: 0 10px;
+    font-weight: 500;
+}
+.our .info .text h3{
+    font-size: 15px;
+    color: #3CB815;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d5dbe7;
+}
+.our .info .text h3 span{
+    font-size: 15px;
+    color: #111;
+    position: relative;
+}
+.our .info .text h3 span::before{
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 1px;
+    top: 45%;
+    left: 8%;
+    background-color: #111;
+    transform: rotate(170deg);
+}
+.our .info .text .view{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.our .info .text .view::before{
+    content: "";
+    width: 2px;
+    height: 35px;
+    background-color: #d5dbe7;
+    position: absolute;
+    top: -35%;
+    left: 50%; 
+}
+.our .info .text .view h5{
+    font-size: 13px;
+    color: #111;
+    font-weight: 400;
+    position: relative;
+}
+.our .info .text .view h5::before{
+    content: "\f06e ";
+    position: absolute;
+    font-size: 17px;
+    font-family: 'FontAwesome';
+    top: -10%;
+    left: -30%;
+    color: #3CB815;    
+}
+.our .info .text .view h6{
+    font-size: 13px;
+    color: #111;
+    font-weight: 400;
+ }
+.our .info .text .view h6::before{
+    content: "\f290 ";
+    position: absolute;
+    font-size: 16px;
+    font-family: 'FontAwesome';
+    top: -10%;
+    left: 52%;
+    color: #3CB815;    
+}
+.our li{
+    text-align: center;
+    list-style: none;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.our li a{
+    font-size: 16px;
+    border: 2px solid #3CB815;
+    background-color: #3CB815;
+    color: #fff;
+    padding: 15px 45px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.our li a:hover{
+    color: #fff;
+    background-color: #F65005;
+    border: 2px solid #F65005;
+    transition: 0.4s linear;
+}
+/* visit css start here */
+.visit{
+    width: 100%;
+    height: 100%;
+    background-color: #3CB815;
+    color: #fff;
+    position: relative;
+    background-image: url(../image/bg-icon.png);
+    background-size: contain;
+}
+.visit h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+   padding-top: 60px;
+}
+.visit .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-bottom: 60px;
+}
+.visit .heading p{
+    font-size: 16px;
+}
+.visit .heading a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    border: 2px solid #F65005;
+    border-radius: 30px;
+    background-color: #F65005;
+    padding: 15px 40px;
+}
+.visit .heading a:hover{
+    background-color: #f87e46;
+    color: #fff;
+    transition: 0.4 linear;
+}
+
+/* Review css strat here */
+
+.review{
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/bg-icon.png);
+    background-size: contain;
+    background-color: #eff3ff;
+
+}
+
+.review .heading{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.review .heading h1{
+    font-size: 45px;
+    color: #111;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+}
+.review .heading h1::before{
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 1px;
+    left: 47%;
+    top: -35%;
+    background-color: #3CB815;
+}
+.review .heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    left: 46%;
+    top: -20%;
+    background-color: #F65005;
+}
+.review .heading p{
+    font-size: 17px;
+    color: #555555;
+    text-align: center;
+}
+.review .client{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    color: #111;
+    padding: 5px 8px;
+}
+.review .client_s{
+    width: 100%;
+    height: auto;
+    background-color: #3CB815;
+    color: #fff;
+    padding: 5px 8px;
+}
+
+.review .client p ,.review .client_s p{
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+}
+.review .client p::before ,.review .client_s p::before{
+    content: "\f10d";
+    position: absolute;
+    font-family: 'FontAwesome';
+    font-size: 40px;
+    color: #F65005;
+    top: -35%;
+    left: 17%;
+}
+.review .client .image ,.review .client_s .image{
+    display: flex;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.review .client .image img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.review .client_s .image img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+.review .client .image .name{
+    margin-left: 20px;
+}
+.review .client_s .image .name{
+    margin-left: 20px;
+}
+
+.review .client .image .name h5{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.review .client_s .image .name h5{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.review .client .image .name h6{
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.review .client_s .image .name h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.blog{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding-bottom: 80px;
+}
+.blog .heading{
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+.blog .heading h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+font-weight: 700;
+    color: #111;
+    text-align: center;
+    position: relative;
+}
+.blog .heading h1::before{
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 2px;
+    left: 47%;
+    top: -35%;
+    background-color: #3CB815;
+}
+.blog .heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    left: 46%;
+    top: -20%;
+    background-color: #F65005;
+}
+.blog .heading p{
+    font-size: 17px;
+    color: #555555;
+    text-align: center;
+    padding-top: 5px;
+}
+.blog .info{
+    width: 100%;
+    height: 100%;
+    background-color: #edf1ff;
+}
+.blog .info .image{
+    width: 100%;
+}
+.blog .info .image img{
+    width: 100%;
+}
+.blog .info h4{
+    font-size:20px;
+    color: #111;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding: 20px 20px 30px 20px;
+    position: relative;
+}
+.blog .info h4:hover{
+    color: #3CB815;
+    transition: 0.4s ease-in-out;
+}
+.blog .info h4::before{
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 1px;
+    top: 97%;
+    left: 5%;
+   background-color: #dee2e6  ;
+}
+.blog .info p{
+    font-size: 14px;
+    color: #555555;
+    padding-left: 20px;
+}
+.blog .info p i{
+    color: #3CB815;
+    padding-right: 3px;
+    font-size: 16px;
+}
+.blog .info p span{
+    padding-left: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+}
+
+.footer .info{
+    width: 100%;
+    padding-top: 80px;
+}
+
+.footer .info h1{
+    font-size: 40px;
+    color: #3CB815;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer .info h1 span{
+    color: #F65005;
+}
+
+.footer .info p{
+    font-size: 15px;
+    color: #999999;
+    padding-top: 10px;
+}
+.footer .info ul{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.footer .info ul li{
+   list-style: none;
+   width: 30px;
+   height: 30px;
+   font-size: 15px;
+   color: #fff;
+   border-radius: 100px;
+   border: 1px solid #fff;
+   margin-right: 10px;
+   padding-top: 3px;
+}
+.footer .info ul li:hover{
+    color: #111;
+    background-color: #fff;
+    transition: 0.4s linear;
+}
+.about{
+    width: 100%;
+    padding-top: 80px;
+}
+.about h1{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.about h4{
+    font-size: 16px;
+    color: #999999;
+    padding-bottom: 5px;
+    position: relative;
+}
+.about h4::before{
+    content: "\f041";
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: 10%;
+    left: -7%;
+    font-size: 17px;
+    font-weight: 700;
+    color: #999999;
+}
+.about h5{
+    font-size: 16px;
+    color: #999999;
+    padding-bottom: 5px;
+    position: relative; 
+}
+.about h5::before{
+    content: "\f095";
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: 10%;
+    left: -7%;
+    font-size: 17px;
+    font-weight: 700;
+    color: #999999;
+}
+.about h6{
+    font-size: 16px;
+    color: #999999; 
+    padding-bottom: 5px;
+    position: relative;
+} 
+.about h6::before{
+    content: "\f0e0";
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: 10%;
+    left: -8%;
+    font-size: 16px;
+    color: #999999;
+}
+.link{
+    width: 100%;
+    padding-top: 80px;
+}
+
+.link h1{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.link ul li{
+    list-style: none;
+    position: relative;
+    padding-bottom: 5px;
+}
+.link ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #999999;
+}
+.link ul li a:hover{
+    font-size: 17px;
+    color: #fff;
+    transition: 0.4s linear inherit;
+}
+.link ul li a::before{
+    content: "\f105";
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: 20%;
+    left: -10%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #999999;
+}
+.news{
+    width: 100%;
+    padding-top: 80px;
+}
+.news h1{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.news p{
+    font-size: 15px;
+    color: #999999;
+}
+ .news h5{
+    font-size: 16px;
+    color: #999999;
+    border: 1px solid #fff;
+    padding: 15px ;
+   
+ }
+ .news h5 span{
+    font-size: 16px;
+    color: #fff;
+    margin-left: 75px;
+    border: 1px solid #3CB815;  
+    padding: 8px 9px;
+    background-color: #3CB815;  
+ }
+.footer .ending-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+ }
+ .footer .ending-footer::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.25px;
+    background-color: #3f3a3a;
+    top: 0%;
+    left: 0%;
+ }
+ .ending-footer p{
+    font-size: 15px;
+    color: #555555;
+
+ }
+ .ending-footer p span{
+    font-size: 15px;
+    color: #fff;
+ }
+ .ending-footer p span:hover{
+    color: #3CB815;
+ }
+ .ending-footer .discribe_by h5{
+    font-size: 15px;
+    color: #555555;
+    margin-left: 15px;
+ }
+ .ending-footer .discribe_by h5 span{
+    font-size: 15px;
+    color: #fff;
+ }
+ .ending-footer .discribe_by h5 span:hover{
+    color: #3CB815;
+  }
+ .ending-footer .discribe_by h6{
+    font-size: 15px;
+    color: #555555;
+    
+ }
+ .ending-footer .discribe_by h6 span{
+    font-size: 15px;
+    color: #fff;
+ }
+ .ending-footer .discribe_by h6 span:hover{
+   color: #3CB815;
+ }
